@@ -1,184 +1,300 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+<meta charset="UTF-8">
+
+<title>遥远的理想乡.</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="Personal Website Template">
+<meta name="keywords" content="Personal, Website Template, Minimal HTML Template, Freelancer">
+<meta name="author" content="khai tawng">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+
 </head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/08/22/hello-world/" class="article-date">
-  <time datetime="2018-08-22T01:19:51.110Z" itemprop="datePublished">2018-08-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/22/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/22/hello-world/" data-id="cjl4gd3et0000isuenk5uwwgg" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="spinner-rotate"></span>
+     </div>
+</div>
 
 
-  
+<!-- NAVIGATION SECTION -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO TEXT HERE -->
+               <a href="index.html" class="navbar-brand">Avalon.</a>
+          </div>
+
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a class="smoothScroll" href="#home">主页</a></li>
+                    <li><a class="smoothScroll" href="#about">Abt KKmint</a></li>
+                    <li><a class="smoothScroll" href="#work">日志</a></li>
+                    <li><a class="smoothScroll" href="#contact">Contact</a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
 
 
+<!-- HOME SECTION -->
+<section id="home">
+
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-2 col-sm-3">
+                    <img src="images/profile-image.jpg" class="wow fadeInUp img-responsive img-circle" data-wow-delay="0.2s" alt="about image">
+               </div>
+
+               <div class="col-md-8 col-sm-8">
+                    <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hey there, 我是kkmint, 这是我的一个前端小博客.</h1>
+               </div>
+
+          </div>
+     </div>
 </section>
-        
-          <aside id="sidebar">
-  
-    
 
-  
-    
+<!-- ABOUT SECTION -->
+<section id="about">
+     <div class="container">
+          <div class="row">
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li></ul>
-    </div>
-  </div>
+               <div class="col-md-8 col-sm-12">
+                    <div class="about-thumb">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                              <h2>A Little Bit Of My Idea</h2>
+                              <p><strong>傻瓜有时也会想写些东西</strong></p>
+                         </div>
+                         <div class="wow fadeInUp" data-wow-delay="0.8s">
+                              <p>个人站, 随缘更, 话题不定, 吐槽时常, 我的地盘我做主...吧</p>
+                         </div>
+                         <ul class="social-icon">
+                              <li class="wow fadeInLeft" data-wow-delay="1s"><a href="#" class="fa fa-github"></a></li>
+                         </ul>
+                    </div>
+               </div>
 
+               <div class="col-md-4 col-sm-12">
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                         <h2>On GitHub</h2>
+                    </div>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/08/22/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+<!--                          <a href="https://www.instagram.com/p/cqED9yjN0j/">
+                              <img src="images/instagram-image1.jpg" class="img-responsive" alt="instagram image">
+                         </a>
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+                         <a href="https://www.instagram.com/p/enL0SsDN51/">
+                              <img src="images/instagram-image2.jpg" class="img-responsive" alt="instagram image">
+                         </a>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+                         <a href="https://www.instagram.com/p/apOuRTDNwJ/">
+                              <img src="images/instagram-image3.jpg" class="img-responsive" alt="instagram image">
+                         </a>
+
+                         <a href="https://www.instagram.com/p/ZXIj33jN2v/">
+                              <img src="images/instagram-image4.jpg" class="img-responsive" alt="instagram image">
+                         </a>
+
+                         <a href="https://www.instagram.com/p/Xwev1FjN9-/">
+                              <img src="images/instagram-image5.jpg" class="img-responsive" alt="instagram image">
+                         </a> -->
+                         <p>大二之前没用GitHub, 辣鸡windows崩了一次代码全没了, 别问为什么, 拿上这台电脑的时候是萌新, down sw光点确定呢种...</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+<!-- SKILL SECTION -->
+<section id="skill">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>Creed</h2>
+                         <p>任何一个傻瓜都会写能够让机器理解的代码, 只有好的程序员才能写出人类可以理解的代码</p>
+                         <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;---Martin Fowler</p>
+                    </div>
+               </div>
+
+               <div class="col-md-offset-1 col-md-6 col-sm-6">
+                    <div class="skill-thumb">
+                        <nav class="site-state">
+                         	<div class="wow fadeInUp site-state-item site-state-posts" data-wow-delay="1s">
+                         	<a href="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
+                         		<span class="site-state-item-count">0</span>
+                         		<br>
+                         	    <span class="site-state-item-name">日志</span>
+                         	</a>
+                         <!--      <strong>Graphic Design</strong>
+                                   <span class="pull-right">95%</span>
+                                        <div class="progress">
+                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                        </div> -->
+                            </div>
+
+                            <div class="wow fadeInUp site-state-item site-state-categories" data-wow-delay="1.2s">
+                         	    <span class="site-state-item-count">0</span>
+                         	    <br>
+                         	    <span class="site-state-item-name">分类</span>
+                      <!--         <strong>Minimal Themes</strong>
+                                   <span class="pull-right">100%</span>
+                                        <div class="progress">
+                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div> -->
+                            </div>
+
+                            <div class="wow fadeInUp site-state-item site-state-tag" data-wow-delay="1.4s">
+                         	    <span class="site-state-item-count">0</span>
+                         	    <br>
+                         	    <span class="site-state-item-name">标签</span>
+<!--                               <strong>Media & Photography</strong>
+                                   <span class="pull-right">75%</span>
+                                        <div class="progress">
+                                              <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div> -->
+                            </div>
+                        </nav>
+                    </div>
+               </div>
+               
+          </div>
+     </div>
+</section>
 
 
-<script src="/js/script.js"></script>
+<!-- WORK SECTION -->
+<section id="work">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>Seleted Works</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                    </div>
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                         <a href="images/work-1.jpg" class="image-popup">
+                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
+                         </a>
+                    </div>
+                    <h4>Graphic & Branding</h4>
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                         <a href="images/work-2.jpg" class="image-popup">
+                              <img src="images/work-2.jpg" class="img-responsive" alt="Work">
+                         </a>
+                    </div>
+                    <h4>Logo Design</h4>
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                         <a href="images/work-3.jpg" class="image-popup">
+                              <img src="images/work-3.jpg" class="img-responsive" alt="Work">
+                         </a>
+                    </div>
+                    <h4>Photography</h4>
+               </div>
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                         <a href="images/work-4.jpg" class="image-popup">
+                              <img src="images/work-4.jpg" class="img-responsive" alt="Work">
+                         </a>
+                    </div>
+                    <h4>Minimal Themes</h4>
+               </div>
+
+          </div>
+     </div>
+</section>
 
 
+<!-- CONTACT SECTION -->
+<section id="contact">
+     <div class="container">
+          <div class="row">
 
-  </div>
+               <div class="col-md-12 col-sm-12">
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>You got projects?</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                    </div>
+               </div>
+
+               <div class="col-md-12 col-sm-12">
+                     <!-- CONTACT FORM HERE -->
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <form id="contact-form">
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="text" class="form-control" name="name" placeholder="Name">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="email" class="form-control" name="email" placeholder="Email">
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                   <input type="text" class="form-control" name="name" placeholder="Subject">
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+                              </div>
+                              <div class="col-md-offset-9 col-md-3 col-sm-offset-3 col-sm-6">
+                                   <button id="submit" type="submit" class="form-control" name="submit">Send Message</button>
+                              </div>
+                        </form>
+                    </div>
+                    More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
