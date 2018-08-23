@@ -302,7 +302,7 @@ a:hover, a:active, a:focus {
 }
 .site-state-item:first-child {
   border-left: none;
-  margin-left: 150px;
+  margin-left: 0px;
 }
 .site-state-item a {
   border-bottom: none;
